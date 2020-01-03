@@ -777,6 +777,14 @@ async function doit() {
                     qtybtc = bal_btc * 50 / 50
                     qty = Math.floor(prc * qtybtc / 10) / LB
                     qty = qty * orderSizeMult
+                    diff3 = diff
+                    if (diff < 0){
+                        diff3 = -1 * diff
+                    }
+                    ////console.log(diff3)
+                    diff3 = diff3 / ((minCrossSell  + minCrossBuy) / 2)
+                    qty = qty * diff3
+                    
                     if (position < 0) {
                         qty = qty * 2
                     }
