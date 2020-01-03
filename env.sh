@@ -1,4 +1,5 @@
 linux
+export testing=true
 export delaybetweenorder=1
 export takeProfit=10
 export ethtakeProfit=10
