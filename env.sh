@@ -1,6 +1,6 @@
 linux
-export testing=true
-export delaybetweenorder=1
+export testing=false
+export delaybetweenorder=0.5
 export takeProfit=10
 export ethtakeProfit=10
 export stopLoss=-8
@@ -21,10 +21,10 @@ export finexkey=
 export finexsecret=
 export ethfinexkey=
 export ethfinexsecret=
-export key=dTBPi4gLCzyHjkV8xTQRIFYiEFKdDQjMc7QDNQ0LooX2i18OB6hDfekIbFi4aFdi
-export secret=WYmZiHUOWWFs9qGcJtm2fC09IFOm7bNC0mHBWGVmJwE2S0Tx2OEOJQazVDX48fJ2
-export ethkey=dTBPi4gLCzyHjkV8xTQRIFYiEFKdDQjMc7QDNQ0LooX2i18OB6hDfekIbFi4aFdi
-export ethsecret=WYmZiHUOWWFs9qGcJtm2fC09IFOm7bNC0mHBWGVmJwE2S0Tx2OEOJQazVDX48fJ2
+export key=
+export secret=
+export ethkey=
+export ethsecret=
 export doWithdraw=false
 export min_withdrawal_percent=0.025
 windows
