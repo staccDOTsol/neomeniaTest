@@ -495,7 +495,7 @@ setInterval(async function() {
         theADX = ADX.calculate({period: 14, high: high,
             low: low,
             close: close})
-theRSI2 = RSI2.calculate({period: 14, values: rsis[0]})
+theRSI2 = RSI2.calculate({period: 9, values: rsis[0]})
     theRSI = RSI.calculate({
         rsiPeriod: period,
         stochasticPeriod: period,
