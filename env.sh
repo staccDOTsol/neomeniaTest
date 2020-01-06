@@ -1,9 +1,9 @@
 linux
 export testing=false
-export delaybetweenorder=0.5
+export delaybetweenorder=0.2
 export takeProfit=10
 export ethtakeProfit=10
-export stopLoss=-8
+export stopLoss=-80
 export trailingTp=1
 export ethtrailingTp=1
 export ethdelaybetweenorder=1
@@ -11,7 +11,7 @@ export ethstopLoss=-8
 export debug=false
 export ethtgUser=community
 export tgUser=community
-export site=http://coindexbot.duckdns.org
+export site=
 export port=8080
 export maxFreePerc=0.9
 export ethmaxFreePerc=0.9
