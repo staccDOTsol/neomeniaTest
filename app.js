@@ -1,13 +1,13 @@
-var lowRSI = 3.5
-var highRSI = 99
-var minCrossSell = 0.0025
-var minCrossBuy = 0.0025
+var lowRSI = 20
+var highRSI = 80
+var minCrossSell = 0.0250
+var minCrossBuy = 0.00200
 var useMFI = true
 var rsiTF = '1m'
-var strat = process.env.strat
+var strat = a
 var mfiTF = 1
 var leverage
-var trailingTp = 0.2
+var trailingTp = 
 trailingTp = parseFloat(process.env.trailingTp)
 var period = 54
 var buyTps = []
@@ -93,8 +93,8 @@ request.get("https://patrickbot.dunncreativess.now.sh/vars", function (e, r, d){
         lowRSI = 30
         minCrossSell = parseFloat(j.minCrossSell)
         minCrossBuy = parseFloat(j.minCrossBuy)
-        minCrossBuy = 0.03
-        minCrossSell = 0.02
+        minCrossBuy = 0.0250
+        minCrossSell = 0.0200
         rsiTF = (j.RSItf) + 'm'
         period = parseFloat(j.RSIPeriod)
         ////console.log(rsiTF) 
